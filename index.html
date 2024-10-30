@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <!--Cabeçalho Fixo-->
+    <header>
+        <div class="navbar-geral">
+            <nav class="navbar">
+                <!--Menu de Navegação-->                
+                    <a class="textos" aria-current="page" href="#"><i class="fa fa-tachometer" aria-hidden="true"></i>Visão Geral</a>
+                    <a class="textos" href="#"><i class="fa fa-clipboard" aria-hidden="true"></i>Projetos</a>
+                    <a class="textos" href="#"><i class="fa fa-line-chart" aria-hidden="true"></i>Relatórios</a>
+                    <a class="textos" href="#"><i class="fa fa-users" aria-hidden="true"></i>Usuários</a>
+                    <a class="textos" href="#"><i class="fa fa-cog" aria-hidden="true"></i>Configurações</a>
+            </nav>
+            <!--Ícone de Notificação-->
+            <div class="notificacao">
+                <i class="fa fa-bell" aria-hidden="true"></i>
+            </div>
+        </div>
+    </header>
+    <!--Menu Lateral-->
+    <aside>
+        <!--Itens do Menu-->
+        <a class="textos-itens" aria-current="page" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Vendas</a>
+        <a class="textos-itens" href="#"><i class="fa fa-money" aria-hidden="true"></i>Financeiro</a>
+        <a class="textos-itens" href="#"><i class="fa fa-archive" aria-hidden="true"></i>Inventário</a>
+        <a class="textos-itens" href="#"><i class="fa fa-line-chart" aria-hidden="true"></i>Análise</a>
+        <a class="textos-itens" href="#"><i class="fa fa-comments" aria-hidden="true"></i>Comunicação</a>
+    </aside>
+    <!--Conteúdo Principal-->
+    <main>
+        <div class="conteudo">
+            <h1 class="titulo">Dashboard:</h1>
+            <!-- Cards de Estatísticas -->
+            <div class="cards-container">
+                <div class="card">
+                    <h3 class="titulo">Vendas</h3>
+                    <p class="texto-paragrafo">100</p>
+                </div>
+                <div class="card">
+                    <h3 class="titulo">Usuários</h3>
+                    <p class="texto-paragrafo">250</p>
+                </div>
+                <div class="card">
+                    <h3 class="titulo">Projetos</h3>
+                    <p class="texto-paragrafo">5</p>
+                </div>
+                <div class="card">
+                    <h3 class="titulo">Tarefas Concluídas</h3>
+                    <p class="texto-paragrafo">80</p>
+                </div>
+            </div>
+            <!-- Lista de Atividades Recentes -->
+            <div class="atividades-container">
+                <h2 class="titulo">Atividades Recentes:</h2>
+                <div class="atividade">
+                    <i class="fa fa-check-circle"></i>
+                    <span>Usuário Sebastião concluiu a tarefa X.</span>
+                </div>
+                <div class="atividade">
+                    <i class="fa fa-times-circle"></i>
+                    <span>Usuário Raimundo rejeitou a proposta Y.</span>
+                </div>
+                <div class="atividade">
+                    <i class="fa fa-comment"></i>
+                    <span>Usuário Gerônimo comentou na tarefa Z.</span>
+                </div>
+                <div class="atividade">
+                    <i class="fa fa-plus-circle"></i>
+                    <span>Usuário Gerolino criou um novo projeto.</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--Rodapé-->
+    <footer>
+        <!--Informações do Rodapé-->
+        <div class="footer">
+            <div>
+                <div>
+                    <p class="textos-rodape"><i class="fa fa-phone" aria-hidden="true"></i> Telefone para contato: (46) 3223-0000</p>
+                    <p class="textos-rodape"><i class="fa fa-envelope" aria-hidden="true"></i> E-mail: site.dashboard.com.br</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <p class="textos-rodape"><i class="fa fa-rocket" aria-hidden="true"></i> Sugestão de Melhoria</p>
+                    <p class="textos-rodape"><i class="fa fa-question-circle" aria-hidden="true"></i> Central de Ajuda</p>
+                </div>
+            </div>
+            <div class="info-copyright">
+                <div>
+                    <p class="textos-rodape">Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2024 Vitor Alves, todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
